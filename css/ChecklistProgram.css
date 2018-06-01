@@ -1,3 +1,25 @@
-body {
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src: url(../resources/fonts/SourceSansPro-Regular.otf);
+}
+
+.wrapper {
 	font-family: 'Helvetica';
+}
+
+.wrapper h1 {
+	font-family: 'SourceSansPro-Regular';
+	font-size: 80px;
+
+	color: rgba(122,89,228,0.8);
+	
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.75);
+	background-blend-mode: lighten;
+
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.25);
 }
