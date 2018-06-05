@@ -3,23 +3,57 @@
 	src: url(../resources/fonts/SourceSansPro-Regular.otf);
 }
 
-.wrapper {
-	font-family: 'Helvetica';
+@font-face {
+	font-family: 'SourceSansPro-Semibold';
+	src: url(../resources/fonts/SourceSansPro-Semibold.otf);
 }
 
-.wrapper h1 {
-	font-family: 'SourceSansPro-Regular';
-	font-size: 80px;
+@font-face {
+	font-family: 'SourceSansPro-It';
+	src: url(../resources/fonts/SourceSansPro-It.otf);
+}
 
-	color: rgba(122,89,228,0.8);
-	
+.wrapper {
+	font-family: 'Helvetica';
 	margin: auto;
-	text-align: center;
-	width: 60%;
+	width: 75%;
 	padding: 10px;
 	border-radius: 15px;
 	background-color: rgba(255,255,255,0.75);
 	background-blend-mode: lighten;
-
 	box-shadow: 5px 5px 15px rgba(0,0,0,0.25);
+}
+
+.wrapper header {
+	font-family: 'SourceSansPro-Regular';
+	text-align: center;
+	font-size: 80px;
+	color: rgba(122,89,228,0.75);
+}
+
+.wrapper h1 {
+	font-family: 'SourceSansPro-It';
+	text-align: center;
+	font-size: 80px;
+}
+
+div.wrapper body {
+	background-color: blue;
+	color: red;
+}
+
+.toc {
+	outline: 1px solid black;
+	width: 40%;
+	display: table;
+}
+
+ul.toc body {
+	padding: 80px;
+}
+
+footer {
+	font-family: 'SourceSansPro-Semibold';
+	text-align: center;
+	padding-top: 20px;
 }
