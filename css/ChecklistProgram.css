@@ -25,31 +25,43 @@
 }
 
 .wrapper header {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Arial';
     text-align: center;
     font-size: 80px;
     color: rgba(122,89,228,0.75);
 }
 
 .wrapper h1 {
-    font-family: 'SourceSansPro-It';
-    text-align: center;
-    font-size: 80px;
+    font-family: 'Arial';
+    text-align: left;
+    font-size: 30px;
 }
 
-.wrapper body {
-    font-family: 'Georgia';
-}
-
-.toc {
+.wrapper .toc {
     border-radius: 5px;
     box-shadow: 0px 0px 2px black;
-    width: 40%;
+    width: 30%;
     display: table;
+    padding-left: 
 }
 
-ul.toc body {
-    padding: 80px;
+.wrapper .toc p {
+    padding-left: 25px;
+    color: red;
+}
+
+.wrapper .toc ul {
+    padding-left: 50px;
+}
+
+p {
+    padding-left: 30px;
+}
+
+img {
+    float: right;
+    width: 25%;
+    height: auto;
 }
 
 footer {
