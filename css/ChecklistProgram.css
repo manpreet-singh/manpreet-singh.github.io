@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SourceSansPro-Regular';
-    src: url(https://github.com/manpreet-singh/manpreet-singh.github.io/blob/master/resources/fonts/SourceSansPro-Regular.otf?raw=true) format("opentype");
+    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-Regular.otf) format("opentype");
 }
 
 @font-face {
@@ -56,6 +56,8 @@
 
 p {
     padding-left: 30px;
+    line-height: 25px;
+    font-family: 'SourceSansPro-Regular';
 }
 
 img {
