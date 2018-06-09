@@ -8,11 +8,6 @@
     src: url(../resources/fonts/SourceSansPro-Semibold.otf) format("opentype");
 }
 
-@font-face {
-    font-family: 'SourceSansPro-It';
-    src: url(../resources/fonts/SourceSansPro-It.otf) format("opentype");
-}
-
 .wrapper {
     font-family: 'SourceSansPro-Regular', 'Helvetica', 'Arial';
     margin: auto;
@@ -46,7 +41,7 @@
 }
 
 .wrapper .toc p {
-    font-family: 'SourceSansPro-It';
+    font-family: 'Helvetica';
     padding-left: 25px;
     color: red;
 }
