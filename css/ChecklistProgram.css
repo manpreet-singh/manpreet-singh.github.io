@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SourceSansPro-Regular';
-    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-Regular.otf) format("opentype");
+    src: url(https://github.com/manpreet-singh/manpreet-singh.github.io/blob/master/resources/fonts/SourceSansPro-Regular.otf?raw=true) format("opentype");
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 .wrapper {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'SourceSansPro-Regular', 'Helvetica', 'Arial';
     margin: auto;
     width: 75%;
     padding: 10px;
