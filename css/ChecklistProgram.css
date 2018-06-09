@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'SourceSansPro-Regular';
-    src: url(https://github.com/manpreet-singh/manpreet-singh.github.io/blob/master/resources/fonts/SourceSansPro-Regular.otf?raw=true) format("opentype");
+    src: url(../resources/fonts/SourceSansPro-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: 'SourceSansPro-Semibold';
-    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-Semibold.otf) format("opentype");
+    src: url(../resources/fonts/SourceSansPro-Semibold.otf) format("opentype");
 }
 
 @font-face {
     font-family: 'SourceSansPro-It';
-    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-It.otf) format("opentype");
+    src: url(../resources/fonts/SourceSansPro-It.otf) format("opentype");
 }
 
 .wrapper {
