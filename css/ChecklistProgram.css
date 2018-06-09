@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'SourceSansPro-Semibold';
-    src: url(../resources/fonts/SourceSansPro-Semibold.otf);
+    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-Semibold.otf) format("opentype");
 }
 
 @font-face {
     font-family: 'SourceSansPro-It';
-    src: url(../resources/fonts/SourceSansPro-It.otf);
+    src: url(https://manpreet-singh.github.io/resources/fonts/SourceSansPro-It.otf) format("opentype");
 }
 
 .wrapper {
@@ -46,6 +46,7 @@
 }
 
 .wrapper .toc p {
+    font-family: 'SourceSansPro-It';
     padding-left: 25px;
     color: red;
 }
