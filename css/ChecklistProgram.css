@@ -33,6 +33,12 @@
     font-size: 30px;
 }
 
+.wrapper img {
+    margin-left: 50px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
 .wrapper .toc {
     position: relative;
     left: 2%;
@@ -54,7 +60,7 @@
 }
 
 .wrapper .download_link {
-    overflow: auto;
+    
     clear: right;
 }
 
@@ -62,9 +68,6 @@
     position: relative;
     width: auto;
     height: auto;
-    margin-left: 50px;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
-    border-radius: 5px;
     right: 5%;
     top: -50px;
 }
@@ -86,6 +89,11 @@
 }
 .wrapper .download_link .download_buton:hover{
     background-color: #3280ff;
+}
+
+.wrapper .section_one {
+    margin-right: auto;
+    overflow: auto;
 }
 
 header {
