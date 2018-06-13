@@ -8,6 +8,27 @@
     src: url(../resources/fonts/SourceSansPro-Semibold.otf) format("opentype");
 }
 
+header {
+    text-shadow: 0px 0px 10px rgb(200,200,200);
+}
+
+p {
+    padding-left: 30px;
+    line-height: 25px;
+    font-family: 'SourceSansPro-Regular';
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+footer {
+    font-family: 'SourceSansPro-Semibold';
+    text-align: center;
+    padding-top: 20px;
+}
+
 .wrapper {
     font-family: 'SourceSansPro-Regular', 'Helvetica', 'Arial';
     margin: auto;
@@ -34,45 +55,46 @@
 }
 
 .wrapper img {
-    margin-left: 50px;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
     border-radius: 5px;
+    float: right;
 }
 
-.wrapper .toc {
+.wrapper .content img{
+    float: none;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+.wrapper .content .toc {
     position: relative;
     left: 2%;
     border-radius: 5px;
-    box-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
     width: 30%;
     display: table;
     padding-left: 
 }
 
-.wrapper .toc p {
+.wrapper .content .toc p {
     font-family: 'Helvetica';
     padding-left: 25px;
-    color: red;
 }
 
-.wrapper .toc ul {
+.wrapper .content .toc ul {
     padding-left: 50px;
 }
 
-.wrapper .download_link {
-    
-    clear: right;
+.wrapper .content .download_link {
+   clear: left;
 }
 
-.wrapper .download_link img{
-    position: relative;
-    width: auto;
-    height: auto;
-    right: 5%;
-    top: -50px;
+.wrapper .content .download_link p{
+    margin-right: 190px;
 }
 
-.wrapper .download_link .download_buton{
+.wrapper .content .download_link .download_buton{
     display: flex;
     background-color: #93bcff;
     border-radius: 5px;
@@ -87,33 +109,14 @@
     position: relative;
     left: 30px;
 }
-.wrapper .download_link .download_buton:hover{
+.wrapper .content .download_link .download_buton:hover{
     background-color: #3280ff;
 }
 
-.wrapper .section_one {
+.wrapper .content .section_one {
     margin-right: auto;
-    overflow: auto;
 }
 
-header {
-    text-shadow: 0px 0px 10px rgb(200,200,200);
-}
-
-p {
-    padding-left: 30px;
-    line-height: 25px;
-    font-family: 'SourceSansPro-Regular';
-}
-
-img {
-    float: right;
-    width: 25%;
-    height: auto;
-}
-
-footer {
-    font-family: 'SourceSansPro-Semibold';
-    text-align: center;
-    padding-top: 20px;
+.wrapper .content .section_one p {
+    margin-right: 190px;
 }
