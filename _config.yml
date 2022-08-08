@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: manpreet-singh/manpreet-singh.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Manpreet Singh
+title: Electrical/Hardware Engineer
+email: singh-manpreet@outlook.com
+website: manpreet-singh.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  manpreet-singh
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jekyll
+linkedin_username: manpreet-singh-b35203149
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,96 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am current in Grad School part time.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Custom Micro-controller Board
+        link: github.com/manpreet-singh/Atlas
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  manpreet-singh/Atlas
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: manpreet-singh.github.io/Atlas
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Small Robot meant to drive around a room autonomously
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged robot. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+
+          Some of the skills I've picked up while doing this project:
+          - C/C++ , Python
+          - ROS (Robot Operating System)
+          - Embedded hardware design with STM32 micro-controllers
+          - Digital Signal processing with Inertial Measurement Units (IMUs)
+          - PCB Design and Assembly
+          - Power Management topology with Lithium-Ion Batteries
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Microsoft
+        sub_title: Hardware Test Engineer II
+        caption: July 2021 - January 2023
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          At this role I performed Design Validation on the Surface line of computer products. Some of my achievements and responsibilities 
+            Develop internal tools for data collection, ingest, and analysis automation using C# and Python.
+            Develop and maintain test equipment and test stands consisting of multiple Oscilloscopes, DMMs, Function Generators, and Current Probes for mixed Analog and Digital testing and Verification.
+            Developed test automation software with C# and Python using VISA and SCPI to interface with various test instruments.
+            Carry out display verification by taking ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
+            Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
+            Thoroughly document issues from electrical and optical points of vie
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: University of Washington (Seattle)
+        caption: 2022 - 2024 (estimated)
+        sub_title: MSc Electrical Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Artificial intelligence and Computer Vision with this degree.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: University of Washington (Tacoma)
+        caption: Sept. 2019 - June 2021
+        sub_title: BSc Electrical Engineering (3.84 GPA)
+
+        description: |
+          During my time at UW Tacoma, I honed and refined my skills that I can taken through my career such as teamwork and working with tight deadlines. I enjoyed my time at UW Tacoma and learnt a lot about what a healthy work life balance is. 
+          
+          Some of the skills I picked up while here include : 
+          - 3D Printing
+          - Mechanical Design
+          - Software Design for Embedded Systems
+          - Image processing 
+          - Control System
+          - Digital Signal Processing
+
+          I spent some time with the IEEE Robotics Club at UW Tacoma, initially during the first year I helped wherever I was needed. I was a jack of *most* trades taking on the role of *Project Manager*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      - Cooking
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Running
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/manpreet-singh.github.io/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
