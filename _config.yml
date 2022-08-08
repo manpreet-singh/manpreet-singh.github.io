@@ -3,7 +3,7 @@ repository: manpreet-singh/manpreet-singh.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Manpreet Singh
@@ -12,7 +12,7 @@ email: singh-manpreet@outlook.com
 website: manpreet-singh.github.io
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -48,15 +48,50 @@ linkedin_username: manpreet-singh-b35203149
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am current in Grad School part time.
+  Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am currently in Grad School part time while working as a Full Time Engineer.
 
   I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>.
 
+
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Microsoft
+        sub_title: Hardware Test Engineer II
+        caption: July 2021 - January 2023
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          At this role I performed Design Validation on the Surface line of computer products. Some of my achievements and responsibilities 
+            - Develop internal tools for data collection, ingest, and analysis automation using C# and Python.
+            - Develop and maintain test equipment and test stands consisting of multiple Oscilloscopes, DMMs, Function Generators, and Current Probes for mixed Analog and Digital testing and Verification.
+            - Developed test automation software with C# and Python using VISA and SCPI to interface with various test instruments.
+            - Carry out display verification by taking ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
+            - Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
+            - Thoroughly document issues from electrical and optical points of view
+
+      - layout: left
+        title: Zeva Aero
+        sub_title: Electrical Engineering Intern
+        caption: Jan. 2021 - Jun. 2021
+        description: | # this will include new lines to allow paragraphs
+          At this role I helped prototype and assemble Power Electronics for a prototype electric aircraft along with the following responsibilities:
+            - Participated in test coordination meetings, on-aircraft ground testing and instrumentation installations.
+            - Collected, analyzed, and interpreted data from various test stands with the goal of performing product performance analysis. 
+            - Developed C/C++ Firmware for the STM 32-bit Microcontroller to interface with sensors via I2C and CAN for the purposes of logging data for analysis.
+            - Researched and Designed Mixed analog/digital Circuits and PCBs under supervision of senior engineers.
+            - Verified electrical assemblies using lab test equipment such as function generators and Oscilloscopes.
+            - Designed 3D printed enclosures for sensor systems and electronic hardware using Solidworks 3D CAD. 
+            - Collaborated with other Interns to develop a user interface that displayed collected data from the various sensors across the aircraft utilizing Python and 3rd party libraries all running aboard a Raspberry Pi
+
+
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Custom Micro-controller Board
         link: github.com/manpreet-singh/Atlas
         # link_text: Project Website
@@ -73,42 +108,43 @@ content:
           I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged robot. I have learned many skills through this and been I'm very proud of having this in my portfolio.
 
           Some of the skills I've picked up while doing this project:
-          - C/C++ , Python
-          - ROS (Robot Operating System)
+          - C/C++
           - Embedded hardware design with STM32 micro-controllers
           - Digital Signal processing with Inertial Measurement Units (IMUs)
           - PCB Design and Assembly
           - Power Management topology with Lithium-Ion Batteries
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Microsoft
-        sub_title: Hardware Test Engineer II
-        caption: July 2021 - January 2023
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          At this role I performed Design Validation on the Surface line of computer products. Some of my achievements and responsibilities 
-            Develop internal tools for data collection, ingest, and analysis automation using C# and Python.
-            Develop and maintain test equipment and test stands consisting of multiple Oscilloscopes, DMMs, Function Generators, and Current Probes for mixed Analog and Digital testing and Verification.
-            Developed test automation software with C# and Python using VISA and SCPI to interface with various test instruments.
-            Carry out display verification by taking ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
-            Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
-            Thoroughly document issues from electrical and optical points of vie
+        title: Networked Multi-Agent Robotics
+        link: github.com/CAMP-Project/CAMP
+        additional_links:
+          - title: CAMP-Project/CAMP
+            icon: fab fa-github
+            url: github.com/CAMP-Project/CAMP
+        quote: >
+          Coordinated Autonomous Mapping & Pathfinding
+        description: | 
+          This project was my Undergraduate capstone research project involving distributed Robotics and various fun technologies.
+
+          Main goal was to develop a network of 3 independent robots that had the ability to collaborate with one another given they were within Wi-Fi range of each other to map out a space or room using LIDAR.
+
+          Some of the complexities in this project involved figuring out techniques to merge LIDAR information from multiple sources into a single map of sorts. Our approach involved transformations, signal filtering, and localization techniques for the mobiles robots.
+
+          We used 2D transformations to get the LIDAR information into a shared point of reference in the real world. We also used a Extended Kalman Filter to get a better estimate of the robot's precise location using the wheel odometery data and a time of flight localization sensor. 
+
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      # - layout: left
-      #   title: University of Washington (Seattle)
-      #   caption: 2022 - 2024 (estimated)
-      #   sub_title: MSc Electrical Engineering
-      #   # quote: >
-      #   #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-      #   description: | # this will include new lines to allow paragraphs
-      #     I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Artificial intelligence and Computer Vision with this degree.
+      - layout: left
+        title: University of Washington (Seattle)
+        caption: 2022 - 2024 (estimated)
+        sub_title: MSc Electrical Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Artificial intelligence and Computer Vision with this degree.
 
       - layout: left
         title: University of Washington (Tacoma)
@@ -132,12 +168,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Cooking
-      - Gaming
       - Running
+      - Gaming
+      - Cooking
 
       Look at this cool image  
-      ![Trees](/manpreet-singh.github.io/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
