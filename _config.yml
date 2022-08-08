@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am current in Grad School part time.
 
-  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>.
 
 content:
   # - title: Projects # Title for the section
@@ -80,53 +80,53 @@ content:
   #         - PCB Design and Assembly
   #         - Power Management topology with Lithium-Ion Batteries
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Microsoft
-        sub_title: Hardware Test Engineer II
-        caption: July 2021 - January 2023
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          At this role I performed Design Validation on the Surface line of computer products. Some of my achievements and responsibilities 
-            Develop internal tools for data collection, ingest, and analysis automation using C# and Python.
-            Develop and maintain test equipment and test stands consisting of multiple Oscilloscopes, DMMs, Function Generators, and Current Probes for mixed Analog and Digital testing and Verification.
-            Developed test automation software with C# and Python using VISA and SCPI to interface with various test instruments.
-            Carry out display verification by taking ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
-            Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
-            Thoroughly document issues from electrical and optical points of vie
+  # - title: Experience # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Microsoft
+  #       sub_title: Hardware Test Engineer II
+  #       caption: July 2021 - January 2023
+  #       # quote: >
+  #       #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #       description: | # this will include new lines to allow paragraphs
+  #         At this role I performed Design Validation on the Surface line of computer products. Some of my achievements and responsibilities 
+  #           Develop internal tools for data collection, ingest, and analysis automation using C# and Python.
+  #           Develop and maintain test equipment and test stands consisting of multiple Oscilloscopes, DMMs, Function Generators, and Current Probes for mixed Analog and Digital testing and Verification.
+  #           Developed test automation software with C# and Python using VISA and SCPI to interface with various test instruments.
+  #           Carry out display verification by taking ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
+  #           Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
+  #           Thoroughly document issues from electrical and optical points of vie
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University of Washington (Seattle)
-        caption: 2022 - 2024 (estimated)
-        sub_title: MSc Electrical Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Artificial intelligence and Computer Vision with this degree.
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: University of Washington (Seattle)
+  #       caption: 2022 - 2024 (estimated)
+  #       sub_title: MSc Electrical Engineering
+  #       # quote: >
+  #       #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Artificial intelligence and Computer Vision with this degree.
 
-      - layout: left
-        title: University of Washington (Tacoma)
-        caption: Sept. 2019 - June 2021
-        sub_title: BSc Electrical Engineering (3.84 GPA)
+  #     - layout: left
+  #       title: University of Washington (Tacoma)
+  #       caption: Sept. 2019 - June 2021
+  #       sub_title: BSc Electrical Engineering (3.84 GPA)
 
-        description: |
-          During my time at UW Tacoma, I honed and refined my skills that I can taken through my career such as teamwork and working with tight deadlines. I enjoyed my time at UW Tacoma and learnt a lot about what a healthy work life balance is. 
+  #       description: |
+  #         During my time at UW Tacoma, I honed and refined my skills that I can taken through my career such as teamwork and working with tight deadlines. I enjoyed my time at UW Tacoma and learnt a lot about what a healthy work life balance is. 
           
-          Some of the skills I picked up while here include : 
-          - 3D Printing
-          - Mechanical Design
-          - Software Design for Embedded Systems
-          - Image processing 
-          - Control System
-          - Digital Signal Processing
+  #         Some of the skills I picked up while here include : 
+  #         - 3D Printing
+  #         - Mechanical Design
+  #         - Software Design for Embedded Systems
+  #         - Image processing 
+  #         - Control System
+  #         - Digital Signal Processing
 
-          I spent some time with the IEEE Robotics Club at UW Tacoma, initially during the first year I helped wherever I was needed. I was a jack of *most* trades taking on the role of *Project Manager*.
+  #         I spent some time with the IEEE Robotics Club at UW Tacoma, initially during the first year I helped wherever I was needed. I was a jack of *most* trades taking on the role of *Project Manager*.
 
   - title: A Little More About Me
     layout: text
