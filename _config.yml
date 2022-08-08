@@ -53,32 +53,32 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Custom Micro-controller Board
-        link: github.com/manpreet-singh/Atlas
-        # link_text: Project Website
-        additional_links:
-          - title:  manpreet-singh/Atlas
-            icon: fab fa-github
-            url: manpreet-singh.github.io/Atlas
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Small Robot meant to drive around a room autonomously
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged robot. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Custom Micro-controller Board
+  #       link: github.com/manpreet-singh/Atlas
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  manpreet-singh/Atlas
+  #           icon: fab fa-github
+  #           url: manpreet-singh.github.io/Atlas
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         Small Robot meant to drive around a room autonomously
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged robot. I have learned many skills through this and been I'm very proud of having this in my portfolio.
 
-          Some of the skills I've picked up while doing this project:
-          - C/C++ , Python
-          - ROS (Robot Operating System)
-          - Embedded hardware design with STM32 micro-controllers
-          - Digital Signal processing with Inertial Measurement Units (IMUs)
-          - PCB Design and Assembly
-          - Power Management topology with Lithium-Ion Batteries
+  #         Some of the skills I've picked up while doing this project:
+  #         - C/C++ , Python
+  #         - ROS (Robot Operating System)
+  #         - Embedded hardware design with STM32 micro-controllers
+  #         - Digital Signal processing with Inertial Measurement Units (IMUs)
+  #         - PCB Design and Assembly
+  #         - Power Management topology with Lithium-Ion Batteries
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
