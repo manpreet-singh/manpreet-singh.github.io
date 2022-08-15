@@ -93,12 +93,12 @@ content:
     content:
       - layout: left
         title: Custom Micro-controller Board
-        link: github.com/manpreet-singh/Atlas
+        link: manpreet-singh.github.io/Atlas/
         # link_text: Project Website
         additional_links:
           - title:  manpreet-singh/Atlas
             icon: fab fa-github
-            url: manpreet-singh.github.io/Atlas
+            url: github.com/manpreet-singh/Atlas
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
