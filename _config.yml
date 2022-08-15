@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am currently in Grad School part time while working as a Full Time Engineer.
 
-  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Eating Pizza</mark>.
+  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C/C++</mark>, <mark>Computer Vision</mark>, and <mark>Low Level Software</mark>.
 
 
 content:
@@ -171,9 +171,6 @@ content:
       - Running
       - Gaming
       - Cooking
-
-      Look at this cool image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
