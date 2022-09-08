@@ -92,7 +92,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Custom Micro-controller Board
+        title: Custom Flight/Robot Controller
         link: manpreet-singh.github.io/Atlas/
         # link_text: Project Website
         additional_links:
@@ -103,15 +103,15 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Small Robot meant to drive around a room autonomously
+          Quadcopter Controller developed for educational purposes
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged robot. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+          I started this project as a way of learning <mark>Embedded Systems</mark> design and it has since grown into a fully fledged flight controller. I have learned many skills through this and been I'm very proud of having this in my portfolio.
 
           Some of the skills I've picked up while doing this project:
-          - C/C++
+          - C/C++ , Python , Linux
           - Embedded hardware design with STM32 micro-controllers
           - Digital Signal processing with Inertial Measurement Units (IMUs)
-          - PCB Design and Assembly
+          - PCB Design and Assembly with different CAD packages such as KiCAD & Altium Designer
           - Power Management topology with Lithium-Ion Batteries
 
       - layout: left
@@ -124,14 +124,18 @@ content:
         quote: >
           Coordinated Autonomous Mapping & Pathfinding
         description: | 
-          This project was my Undergraduate capstone research project involving distributed Robotics and various fun technologies.
+          This project was my Undergraduate capstone research project involving distributed <mark>Robotics</mark> and various fun technologies.
 
-          Main goal was to develop a network of 3 independent robots that had the ability to collaborate with one another given they were within Wi-Fi range of each other to map out a space or room using LIDAR.
+          Main goal was to develop a network of 3 independent robots that had the ability to collaborate with one another given they were within Wi-Fi range of each other to map out a space or room using <mark>LIDAR</mark> and <mark>SLAM</mark>.
 
-          Some of the complexities in this project involved figuring out techniques to merge LIDAR information from multiple sources into a single map of sorts. Our approach involved transformations, signal filtering, and localization techniques for the mobiles robots.
+          Some of the complexities in this project involved figuring out techniques to merge SLAM data from multiple sources into a single dataset. Our approach involved 2D rotations/translations, signal filtering, and localization techniques for the mobiles robots.
 
-          We used 2D transformations to get the LIDAR information into a shared point of reference in the real world. We also used a Extended Kalman Filter to get a better estimate of the robot's precise location using the wheel odometery data and a time of flight localization sensor. 
+          We used 2D transformations to get the SLAM data into a shared point of reference in the real world. We also used a Extended Kalman Filter to get a better estimate of the robot's precise location using the wheel odometery data and a time of flight localization sensor. 
 
+          Some of the things I had direct ownership of are the following:
+          - Design & Development of the Movement Controller. This part of the software was in-charge of triangulating the position of the robot and figuring out what commands to send to the Robot hardware in order to move from it's current position to a defined set of coordinates.
+          - Conceptualizing & Developing the Multi robot communication. This specific part of the software was in-charge of identifying and initiating communication with other networked robots. Other aspects of this specific feature was data encoding and decoding.
+          - Development of the Hardware Test Plan. I created a pre-initialization routine that checked in with all of the required hardware to ensure proper functionality.
 
 
   - title: Education # Title for the section
@@ -162,7 +166,7 @@ content:
           - Control System
           - Digital Signal Processing
 
-          I spent some time with the IEEE Robotics Club at UW Tacoma, initially during the first year I helped wherever I was needed. I was a jack of *most* trades taking on the role of *Project Manager*.
+          I spent some time with the IEEE Robotics Club at UW Tacoma, initially during the first year I helped wherever I was needed. I was a jack of *most* trades taking on the role of *Project Lead*.
 
   - title: A Little More About Me
     layout: text
