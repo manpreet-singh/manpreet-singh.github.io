@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am currently a Grad Student at the University of Washington working towards a MSc. in Electrical Engineering.
 
-  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C#<\mark>, <mark>Python</mark>, <mark>C++</mark>, <mark>Hardware Testing</mark>, and <mark>Low Level Software</mark> (Firmware for Microcontrollers).
+  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C#</mark>, <mark>Python</mark>, <mark>C++</mark>, <mark>Hardware Testing</mark>, and <mark>Low Level Software</mark> (Firmware for Microcontrollers).
 
 
 content:
