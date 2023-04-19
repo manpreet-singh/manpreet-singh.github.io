@@ -67,6 +67,7 @@ content:
             - Developed <mark>LabVIEW</mark> code to run on a NI PXI Chassis to simulate analog instrumention commonly found on the BE-3PM Engine.
             - Developed a data post-processing pipeline in <mark>Python</mark> to analyze voltage accuracy.
             - Authored Block Interface Diagrams for Test Hardware and Harness design/build documents.
+            - Developed Test hardware to catch timeouts on a <mark>RS488</mark> communication bus. A <mark>Python</mark> script ran on a <mark>Linux</mark> Server monitoring for timeouts, when timeout was detected, a Saleae Logic Analyzer was triggerd to save the last minute of data it had captured.
 
       - layout: left
         title: Microsoft
@@ -81,7 +82,7 @@ content:
             - Developed test automation software with <mark>C#</mark> using VISA and SCPI to interface with test instruments.
             - Took ownership of test pass planning and execution for various display subsystems across a product line from an electrical and optical point of view. 
             - Review PCB layouts using Cadence Allegro PCB viewer, develop PCB rework guides for electrical testing.
-            - Verification of MIPI, I2C, SPI, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
+            - Verification of MIPI, <mark>I2C</mark>, <mark>SPI</mark>, DP, eDP, Signal Integrity, complex power sequences, display driver ICs, and multi-display synchronization.
 
       - layout: left
         title: Zeva Aero
@@ -91,7 +92,7 @@ content:
           At this role I helped prototype and assemble Power Electronics for a prototype electric aircraft along with the following responsibilities:
             - Participated in test coordination meetings, on-aircraft ground testing and instrumentation installations.
             - Collected, analyzed, and interpreted data from various test stands with the goal of performing product performance analysis. 
-            - Developed C/C++ Firmware for the STM 32-bit Microcontroller to interface with sensors via I2C and CAN for the purposes of logging data for analysis.
+            - Developed C/C++ Firmware for the STM 32-bit Microcontroller to interface with sensors via <mark>I2C</mark> for the purposes of logging data for analysis.
             - Researched and Designed Mixed analog/digital Circuits and PCBs under supervision of senior engineers.
             - Verified electrical assemblies using lab test equipment such as function generators and Oscilloscopes.
             - Designed 3D printed enclosures for sensor systems and electronic hardware using Solidworks 3D CAD. 
