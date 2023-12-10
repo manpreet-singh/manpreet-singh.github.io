@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Manpreet and I'm a Electrical Engineer. As well as developing custom hardware solutions I also have experience making software. I am currently a Grad Student at the University of Washington working towards a MSc. in Electrical Engineering.
 
-  I am most skilled in: <mark>Embedded Hardware</mark>, <mark>C#</mark>, <mark>Python</mark>, <mark>C++</mark>, <mark>Hardware Testing</mark>, and <mark>Low Level Software</mark> (Firmware for Microcontrollers).
+  I am most skilled in: <mark>Embedded Hardware</mark>, Embedded <mark>Software Development</mark>, <mark>System Design</mark>, <mark>Hardware Testing</mark>, and <mark>Low Level Software</mark> (Firmware for Microcontrollers and FPGAs).
 
 
 content:
@@ -63,11 +63,11 @@ content:
         caption: Jan. 2023 - Apr. 2023
         description: |
           During my time at Blue Origin, I worked on Test Infrastructure for use in their Hardware in the Loop labs. The Testing infrastructure I helped develop is meant to help perform Qualification and Acceptance Testing.
-          Some of my responsobilities include
-            - Developed <mark>LabVIEW</mark> code to run on a NI PXI Chassis to simulate analog instrumention commonly found on the BE-3PM Engine.
+          Some of my responsibilities include
+            - Developed <mark>LabVIEW</mark> code to run on a NI PXI Chassis to simulate analog instrumentation commonly found on the BE-3PM Engine.
             - Developed a data post-processing pipeline in <mark>Python</mark> to analyze voltage accuracy.
             - Authored Block Interface Diagrams for Test Hardware and Harness design/build documents.
-            - Developed Test hardware to catch timeouts on a <mark>RS488</mark> communication bus. A <mark>Python</mark> script ran on a <mark>Linux</mark> Server monitoring for timeouts, when timeout was detected, a Saleae Logic Analyzer was triggerd to save the last minute of data it had captured.
+            - Developed Test hardware to catch timeouts on a <mark>RS488</mark> communication bus. A <mark>Python</mark> script ran on a <mark>Linux</mark> Server monitoring for timeouts, when a timeout was detected, a Saleae Logic Analyzer was triggered to save the last minute of data it had captured.
 
       - layout: left
         title: Microsoft
@@ -154,16 +154,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Washington (Seattle)
-        caption: Sept. 2022 - Dec. 2023 (Expected)
+        title: University of Washington (Seattle, WA)
+        caption: Sept. 2022 - Dec. 2023
         sub_title: MSc. Electrical Engineering
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          I will be starting my Masters Program in EE at UW Seattle Fall of 2022. Current Plan is to focus on Embedded Systems and Signal Processing with this degree.
+          During my Masters, I focused on a combination of the following topics I found interesting from my Bachelor's degree:
+          - Digital Signal Processing
+          - Control Systems
+          - Analog Sensor Systems Design
+          - Embedded System Design, with a focus on AI on low cost hardware
+          - Digital Systems Design with FPGAs
+
+          Some of the projects I worked on during my Masters were:
+          - Design of an Instrumentation Amplifier and a 4th order low pass filter
+          - Digital Signal Processing for Continuous Wave Radars. This project aimed to deal with RF signals that had multiple harmonics, aim was to identify the fundamental frequency from the higher order harmonics.
+          - Field Oriented Control (FOC) of an Induction Motor, this project aimed to develop a Field Oriented Controller for an induction motor.
+          - Closed Loop Current Controller for a BLDC motor built onto an FPGA. This project also included design of the measurement circuitry and development of a I2C interface on the FPGA to communicate with the measurement circuitry.
 
       - layout: left
-        title: University of Washington (Tacoma)
+        title: University of Washington (Tacoma, WA)
         caption: Sept. 2019 - Jun. 2021
         sub_title: BSc Electrical Engineering
 
@@ -177,7 +188,7 @@ content:
           - Control System
           - Digital Signal Processing
 
-          I start the IEEE Robotics Club and the IEEE Honor Society at UW Tacoma.
+          I was also founding member of the IEEE Robotics Club and the IEEE Honor Society at UW Tacoma.
 
   - title: A Little More About Me
     layout: text
@@ -187,6 +198,7 @@ content:
       - Gaming (Kerbal Space Program)
       - Cooking
       - 3D Printing
+      - Fitness
 
 # Footer
 footer_show_references: true
